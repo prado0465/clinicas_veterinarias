@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 300px;
+  }
+  
+  .custom-btn {
+    background-color: #b431f4;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .custom-btn:hover {
+    background-color: #8724b8;
+    color: white;
+  }
+  
+  .custom-btn:active {
+    background-color: #6a1e8c;
+  }
+  
+  .logo {
+    margin-top: 25px;
+    margin-bottom: 5px;
+  }
+  .livralivro {
+    margin-top: 5px;
+    margin-bottom: 35px;
+  }
+  
